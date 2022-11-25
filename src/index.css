@@ -4,7 +4,6 @@
   font-family: 'JetBrains Mono', monospace;
 }
 /* :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -24,6 +23,8 @@ body {
   background-color: #E6E5A3;
   /* display: flex; */
   /* place-items: center; */
-  width: 100vw;
+  /* width: 100vw; */
   height: 100vh;
+  display: flex;
+  /* justify-content: center; */
 }

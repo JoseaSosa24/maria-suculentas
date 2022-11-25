@@ -1,4 +1,3 @@
-
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -6,9 +5,14 @@
   text-align: center;
 }
  */
+.principal {
+  padding: 1%;
+  border: 1px solid black;
+  height: 100vh;
+  /* width: 97.4vw !important; */
+}
 
-nav{
-background-color: #7D8F69;
-
-
+nav {
+  background-color: #7d8f69;
+  /* width: 97.4vw !important; */
 }
