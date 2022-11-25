@@ -5,6 +5,7 @@ import { FormSelect } from './FormSelect'
 import { Titulo } from './Titulo'
 import { FormTextArea } from './FormTextArea'
 import { Carousel } from './Carousel'
+import { Galeria } from './Galeria'
 
 
 
@@ -28,7 +29,7 @@ export const Main = () => {
         </section>
       </article>
 
-      {/* <Carousel /> */}
+      <Galeria />
 
       <section id="formulario-productos" className='formulario-productos contenedor-formulario d-flex flex-column  align-items-center justify-content-center'>
         <form class="row g-3 d-flex col-11 justify-content-between">
