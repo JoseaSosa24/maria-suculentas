@@ -1,51 +1,49 @@
+import { Button } from './Button'
 import React from 'react'
+import { FormItem } from './FormItem'
+import { FormSelect } from './FormSelect'
+import { Titulo } from './Titulo'
 
 
 export const Main = () => {
   return (
-    <main className='principal d-flex flex-column'>
-      <section className='contenedor-formulario bg-info d-flex flex-column p-4 gap-3 align-items-center justify-content-center'>
+    <main className='principal d-flex flex-column gap-3'>
+      <section className='contenedor-formulario bg-info d-flex flex-column p-4 align-items-center justify-content-center'>
         <form class="row g-3 d-flex p-3 col-11 justify-content-between">
-          <section className='titulo-formulario'>
-            <h3>Registro Producto</h3>
-          </section>
-          <section class="form-item col-md-4">
-            <label for="validationDefault01" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="validationDefault01" placeholder='Pasionaria' required />
-          </section>
-          <section class="form-item col-2">
-            <label for="validationDefault04" class="form-label">Sexo</label>
-            <select class="form-select" id="validationDefault04" required>
-              <option selected disabled value="">Seleccione...</option>
-              <option>Macho</option>
-              <option>Hembra</option>
-            </select>
-          </section>
-
-          <section class="form-item col-md-2">
-            <label for="validationDefault02" class="form-label">Referencia</label>
-            <input type="text" class="form-control" id="validationDefault02" placeholder="Referencia" required />
-          </section>
-
-          <section class="form-item col-md-2">
-            <label for="validationDefault03" class="form-label">Tamaño</label>
-            <input type="number" class="form-control" id="validationDefault03" placeholder='10cm' required />
-          </section>
-
-          <section class="form-item col-md-2">
-            <label for="validationDefault04" class="form-label">Cantidad</label>
-            <input type="number" class="form-control" id="validationDefault04" placeholder='4' required />
-          </section>
-
+          <Titulo titulo={'Registro Producto'} />
+          <FormItem clase={'form-item col-md-4'} textoLabel={'Nombre'} id={'validationDefault01'} placeholder={'Pasionaria'} type={'text'} />
+          <FormSelect clase={'form-item col-2'} id={'validationDefault02'} textoLabel={'Sexo'} opcion={{
+            uno:'Macho',
+            dos: 'Hembra'
+          }} />
+          <FormItem clase={'form-item col-md-2'} textoLabel={'Referencia'} id={'validationDefault03'} placeholder={'Referencia'} type={'text'} />
+          <FormItem clase={'form-item col-md-2'} textoLabel={'Tamaño'} id={'validationDefault04'} placeholder={'10cm'} type={'number'} />
+          <FormItem clase={'form-item col-md-2'} textoLabel={'Cantidad'} id={'validationDefault05'} placeholder={'4'} type={'number'} />
           <section class="form-item col-md-12">
             <label for="validationDefault05" class="form-label">Descripción</label>
             <textarea class="form-control" id="validationDefault06" placeholder="Es una planta que..." rows="4" required />
           </section>
-          <section class="form-button d-flex justify-content-center col-12 ">
-            <button class="btn btn-primary" type="submit">Enviar</button>
+          <Button clase={'form-button d-flex justify-content-center col-12'} classButton={'btn btn-primary'} textButton={'Enviar'} type={'submit'}/>
+          
+        </form>
+      </section>
+      
+      <section className='contenedor-formulario bg-info d-flex flex-column p-4 gap-3 align-items-center justify-content-center'>
+        <form class="row g-3 d-flex p-3 col-11 justify-content-between">
+          <Titulo titulo={'Registro Clientes'} />
+          <FormItem clase={'form-item col-md-4'} textoLabel={'Nombre'} id={'validationDefault01'} placeholder={'Pasionaria'} type={'text'} />
+          <FormSelect clase={'form-item col-2'} id={'validationDefault02'} textoLabel={'Sexo'} opcion={{
+            uno:'Macho',
+            dos: 'Hembra'
+          }} />
+          <FormItem clase={'form-item col-md-2'} textoLabel={'Referencia'} id={'validationDefault03'} placeholder={'Referencia'} type={'text'} />
+          <FormItem clase={'form-item col-md-2'} textoLabel={'Tamaño'} id={'validationDefault04'} placeholder={'10cm'} type={'number'} />
+          <FormItem clase={'form-item col-md-2'} textoLabel={'Cantidad'} id={'validationDefault05'} placeholder={'4'} type={'number'} />
+          <section class="form-item col-md-12">
+            <label for="validationDefault05" class="form-label">Descripción</label>
+            <textarea class="form-control" id="validationDefault06" placeholder="Es una planta que..." rows="4" required />
           </section>
-
-
+          <Button clase={'form-button d-flex justify-content-center col-12'} classButton={'btn btn-primary'} textButton={'Enviar'} type={'submit'}/>
         </form>
       </section>
     </main>
