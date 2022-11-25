@@ -50,6 +50,22 @@ article p {
   box-shadow: -5px 14px 5px #557153;
 }
 
+.galeria .card{
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.galeria, .galeria img{
+  box-shadow:none;
+  border-radius: 5px !important;
+  
+}
+
+.galeria .card-body{
+  background-color: #a9af7e;
+}
+
+
 main {
   margin-top: 10%;
 }
