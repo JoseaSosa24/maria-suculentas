@@ -9,7 +9,7 @@ import { FormTextArea } from './FormTextArea'
 export const Main = () => {
   return (
     <main className='principal d-flex flex-column gap-3'>
-      <section className='formulario-productos contenedor-formulario bg-info d-flex flex-column p-4 align-items-center justify-content-center'>
+      <section id = "formulario-productos" className='formulario-productos contenedor-formulario bg-info d-flex flex-column p-4 align-items-center justify-content-center'>
         <form class="row g-3 d-flex p-3 col-11 justify-content-between">
           <Titulo titulo={'Registro Producto'} />
           <FormItem clase={'form-item col-md-4'} textoLabel={'Nombre'} id={'validationDefault01'} placeholder={'Pasionaria'} type={'text'} />
@@ -26,7 +26,7 @@ export const Main = () => {
         </form>
       </section>
 
-      <section className='formulario-clientes contenedor-formulario bg-info d-flex flex-column p-4 gap-3 align-items-center justify-content-center'>
+      <section id='formulario-clientes' className='formulario-clientes contenedor-formulario bg-info d-flex flex-column p-4 gap-3 align-items-center justify-content-center'>
         <form class="row g-3 d-flex p-3 col-11 justify-content-between">
           <Titulo titulo={'Registro Clientes'} />
           <FormItem clase={'form-item col-md-4'} textoLabel={'Nombre'} id={'validationDefault01'} placeholder={'Juan Perez'} type={'text'} />
@@ -39,7 +39,7 @@ export const Main = () => {
         </form>
       </section>
 
-      <section className='formulario-proveedor contenedor-formulario bg-info d-flex flex-column p-4 gap-3 align-items-center justify-content-center'>
+      <section id='formulario-proveedor' className='formulario-proveedor contenedor-formulario bg-info d-flex flex-column p-4 gap-3 align-items-center justify-content-center'>
         <form class="row g-3 d-flex p-3 col-11 justify-content-between">
           <Titulo titulo={'Registro Proveedor'} />
           <FormItem clase={'form-item col-md-4'} textoLabel={'Nombre'} id={'validationDefault01'} placeholder={'Juan Perez'} type={'text'} />
