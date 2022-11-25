@@ -7,16 +7,60 @@
  */
 .principal {
   padding: 1%;
-  border: 1px solid black;
-  /* height: 100vh; */
-  /* width: 97.4vw !important; */
 }
 
-nav {
-  background-color: #7d8f69;
-  /* width: 97.4vw !important; */
+nav{
+  box-shadow: -5px 14px 5px #557153;
 }
 
-footer{
-  background-color: #7d8f69;
+nav,
+footer,
+.contenedor-formulario {
+  background-color: #a9af7e;
+ 
+}
+
+.contenedor-formulario{
+  margin-top: 100px;
+  margin: 2%;
+  padding: 8% !important;
+}
+
+.nav-item {
+  border-radius: 10px;
+  -webkit-transition: all 0.45s ease !important;
+  transition: all 0.45s ease !important;
+}
+
+.nav-item :hover {
+  -webkit-text-stroke: 1px black;
+  background-color: #557153;
+  border-radius: 10px;
+  -webkit-transition: all 0.45s ease !important;
+  transition: all 0.45s ease !important;
+}
+
+article p {
+  -webkit-text-stroke: 0.2px whitesmoke;
+}
+
+.card,
+.card img {
+  border-radius: 20px !important;
+  box-shadow: -5px 14px 5px #557153;
+}
+
+main {
+  margin-top: 10%;
+}
+
+.contenedor-formulario {
+  border-radius: 20px !important;
+  margin-top: 5%;
+  box-shadow: -5px 14px 5px #557153;
+}
+
+footer img:hover {
+  background-color: #557153;
+  border-radius: 20px;
 }

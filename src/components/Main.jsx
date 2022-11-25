@@ -10,14 +10,17 @@ import { Carousel } from './Carousel'
 
 export const Main = () => {
   return (
-    <main className='principal d-flex flex-column gap-3'>
+    <main className='principal d-flex flex-column gap-3 '>
       <article className=''>
-        <section class="card text-bg-dark">
-          <img src="https://www.royalqueenseeds.es/modules/prestablog/themes/royalqueenseeds/up-img/74.jpg" class="card-img5" height="600px"  alt="..." />
+        <section class="card text-bg-dark ">
+          <img src='https://bit.ly/3VomTgx' class="card-img" height="700px" alt="..." />
           <section class="card-img-overlay mt-5 ">
             <h1 class="card-title fw-bold bg-black bg-opacity-25 rounded">¿Qué es la marihuana medicinal y cómo elegir una variedad de marihuana medicinal?</h1>
-            <p class="card-text fs-5 fw-bold bg-black bg-opacity-25 rounded"> La marihuana medicinal es aquella que se utiliza para tratar o aliviar una afección, más que para fines recreativos o espirituales. Cualquier tipo de marihuana que contenga una cantidad efectiva de cannabinoides puede
+            <p class="card-text fs-5 fw-bold bg-black bg-opacity-25 rounded"> La marihuana medicinal es aquella que se utiliza para tratar o aliviar una afección, más que para supuestos "fines recreativos" o espirituales. Cualquier tipo de marihuana que contenga una cantidad efectiva de cannabinoides puede
               ser considerada marihuana medicinal si se utiliza para tal fin.</p>
+            <p className='fs-5 fw-bold bg-black bg-opacity-25 rounded'>
+              Puede ser muy fácil tomar la decisión de utilizar marihuana medicinal, aunque elegir una variedad sí que conlleva cierta dificultad. Muchos pacientes, y la mayoría de nuestros clientes, nunca habían cultivado o probado la marihuana antes de descubrir su uso como medicamento.
+            </p>
             <p className='bg-black bg-opacity-25 rounded'> Por Sensi Seeds
               Actualizado el 08/17/2021
               Revisión médica realizada por Sanjai Sinha, MD</p>
@@ -25,10 +28,10 @@ export const Main = () => {
         </section>
       </article>
 
-      {/* <Carousel /> */}
+      <Carousel />
 
-      <section id="formulario-productos" className='formulario-productos contenedor-formulario bg-info d-flex flex-column p-4 align-items-center justify-content-center'>
-        <form class="row g-3 d-flex p-3 col-11 justify-content-between">
+      <section id="formulario-productos" className='formulario-productos contenedor-formulario d-flex flex-column  align-items-center justify-content-center'>
+        <form class="row g-3 d-flex col-11 justify-content-between">
           <Titulo titulo={'Registro Producto'} />
           <FormItem clase={'form-item col-md-4'} textoLabel={'Nombre'} id={'validationDefault01'} placeholder={'Pasionaria'} type={'text'} />
           <FormSelect clase={'form-item col-2'} id={'validationDefault02'} textoLabel={'Sexo'} opcion={{
@@ -44,8 +47,8 @@ export const Main = () => {
         </form>
       </section>
 
-      <section id='formulario-clientes' className='formulario-clientes contenedor-formulario bg-info d-flex flex-column p-4 gap-3 align-items-center justify-content-center'>
-        <form class="row g-3 d-flex p-3 col-11 justify-content-between">
+      <section id='formulario-clientes' className='formulario-clientes contenedor-formulario d-flex flex-column gap-3 align-items-center justify-content-center'>
+        <form class="row g-3 d-flex col-11 justify-content-between">
           <Titulo titulo={'Registro Clientes'} />
           <FormItem clase={'form-item col-md-4'} textoLabel={'Nombre'} id={'validationDefault01'} placeholder={'Juan Perez'} type={'text'} />
           <FormItem clase={'form-item col-md-4'} textoLabel={'Documento'} id={'validationDefault02'} placeholder={'102456501'} type={'number'} />
@@ -57,8 +60,8 @@ export const Main = () => {
         </form>
       </section>
 
-      <section id='formulario-proveedor' className='formulario-proveedor contenedor-formulario bg-info d-flex flex-column p-4 gap-3 align-items-center justify-content-center'>
-        <form class="row g-3 d-flex p-3 col-11 justify-content-between">
+      <section id='formulario-proveedor' className='formulario-proveedor contenedor-formulario d-flex flex-column gap-3 align-items-center justify-content-center'>
+        <form class="row g-3 d-flex col-11 justify-content-between">
           <Titulo titulo={'Registro Proveedor'} />
           <FormItem clase={'form-item col-md-4'} textoLabel={'Nombre'} id={'validationDefault01'} placeholder={'Juan Perez'} type={'text'} />
           <FormItem clase={'form-item col-md-4'} textoLabel={'Nit'} id={'validationDefault02'} placeholder={'1-024565010'} type={'number'} />
