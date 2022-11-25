@@ -1,43 +1,47 @@
 import React from 'react'
+import { Titulo } from './Titulo'
 export const Carousel = () => {
     return (
-        <section id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-            <section class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </section>
-            <section class="carousel-inner rounded mt-5">
-                <section class="carousel-item active">
-                    <img src="../../src/assets/img/img-caurosel/1.jpg" class="d-block w-100" alt="..."/>
+        <section className='contenedor-carousel d-flex justify-content-center align-items-center flex-column mt-5 h-75'>
+        <Titulo titulo={'Productos utilizados solo con el fin MEDICINAL'}/>
+            <section id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <section class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </section>
+                <section class="carousel-inner rounded mt-5">
+                    <section class="carousel-item active">
+                        <img src="../../src/assets/img/img-caurosel/1.jpg" class="d-block w-100" alt="..." />
                         <section class="carousel-caption d-none d-md-block">
                             <h3>Master Kush</h3>
                             <p> 90 – 100 % indica</p>
                         </section>
-                </section>
-                <section class="carousel-item">
-                    <img src="../../src/assets/img/img-caurosel/2.jpg" class="d-block w-100" alt="..."/>
+                    </section>
+                    <section class="carousel-item">
+                        <img src="../../src/assets/img/img-caurosel/2.jpg" class="d-block w-100" alt="..." />
                         <section class="carousel-caption d-none d-md-block">
                             <h3>Shiva Skunk</h3>
                             <p>85 % indica.</p>
                         </section>
-                </section>
-                <section class="carousel-item">
-                    <img src="../../src/assets/img/img-caurosel/3.jpg" class="d-block w-100" alt="..."/>
+                    </section>
+                    <section class="carousel-item">
+                        <img src="../../src/assets/img/img-caurosel/3.jpg" class="d-block w-100" alt="..." />
                         <section class="carousel-caption d-none d-md-block">
                             <h3>Big Bud</h3>
                             <p>85 % indica</p>
                         </section>
+                    </section>
                 </section>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </section>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </section>
     )
 }

@@ -11,8 +11,8 @@ import { Carousel } from './Carousel'
 export const Main = () => {
   return (
     <main className='principal d-flex flex-column gap-3 '>
-      <article className=''>
-        <section class="card text-bg-dark ">
+      <article className='d-flex justify-content-center'>
+        <section class="card text-bg-dark w-75">
           <img src='https://bit.ly/3VomTgx' class="card-img" height="700px" alt="..." />
           <section class="card-img-overlay mt-5 ">
             <h1 class="card-title fw-bold bg-black bg-opacity-25 rounded">¿Qué es la marihuana medicinal y cómo elegir una variedad de marihuana medicinal?</h1>
@@ -28,7 +28,7 @@ export const Main = () => {
         </section>
       </article>
 
-      <Carousel />
+      {/* <Carousel /> */}
 
       <section id="formulario-productos" className='formulario-productos contenedor-formulario d-flex flex-column  align-items-center justify-content-center'>
         <form class="row g-3 d-flex col-11 justify-content-between">
