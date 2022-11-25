@@ -6,5 +6,6 @@ export const Header = () => {
     <header className="">
       <Nav />
     </header>
+    
   );
 };
