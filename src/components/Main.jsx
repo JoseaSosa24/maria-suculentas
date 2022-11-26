@@ -4,7 +4,6 @@ import { FormItem } from './FormItem'
 import { FormSelect } from './FormSelect'
 import { Titulo } from './Titulo'
 import { FormTextArea } from './FormTextArea'
-import { Carousel } from './Carousel'
 import { Galeria } from './Galeria'
 
 
