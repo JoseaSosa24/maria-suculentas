@@ -28,7 +28,7 @@ export const Footer = () => {
             <section class="">
                 <section class="container text-center text-md-start ">
                     <section class="row mt-3">
-                        <section class="col-md-10 col-lg-10 col-xl-10 mx-auto mb-md-0 mb-4 d-flex ">
+                        <section class="col-md-10 col-lg-10 col-xl-10 mx-auto mb-md-0 mb-4 d-flex justify-content-center">
                             <h6 class="text-uppercase fw-bold mb-4">Contacto:</h6>
                             <p><i class="fas fa-home me-3"></i> Medellín-Colombia</p>
                             <p>
