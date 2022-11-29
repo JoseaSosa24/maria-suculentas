@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../src/assets/icon/icon-footer/facebook.png'
+import ImagenesFooter from '../assets/ImagenesFooter'
 export const Footer = () => {
     return (
         <footer class="text-center text-lg-start">
@@ -12,14 +13,14 @@ export const Footer = () => {
 
                 <section>
                     <a href="" class="me-4 text-reset">
-                        <img class="fab fa-facebook" src='../../src/assets/icon/icon-footer/facebook.png' width="40" height="40" />
+                        <img class="fab fa-facebook" src={ImagenesFooter.facebook} width="40" height="40" />
                     </a>
                     <a href="" class="me-4 text-reset">
-                        <img class="fab fa-twitter" src='../../src/assets/icon/icon-footer/twitter.png' width="40" height="40" />
+                        <img class="fab fa-twitter" src={ImagenesFooter.instagram} width="40" height="40" />
                     </a>
 
                     <a href="" class="me-4 text-reset">
-                        <img class="fab fa-instagram" src='../../src/assets/icon/icon-footer/instagram.png' width="40" height="40" />
+                        <img class="fab fa-instagram" src={ImagenesFooter.twitter} width="40" height="40" />
                     </a>
 
                 </section>
