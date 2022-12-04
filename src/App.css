@@ -9,7 +9,7 @@
   padding: 1%;
 }
 
-nav{
+nav {
   box-shadow: -5px 14px 5px #557153;
 }
 
@@ -17,10 +17,9 @@ nav,
 footer,
 .contenedor-formulario {
   background-color: #a9af7e;
- 
 }
 
-.contenedor-formulario{
+.contenedor-formulario {
   margin-top: 100px;
   margin: 2%;
   padding: 8% !important;
@@ -50,21 +49,20 @@ article p {
   box-shadow: -5px 14px 5px #557153;
 }
 
-.galeria .card{
+.galeria .card {
   background-color: transparent !important;
   border: none !important;
 }
 
-.galeria, .galeria img{
-  box-shadow:none;
+.galeria,
+.galeria img {
+  box-shadow: none;
   border-radius: 5px !important;
-  
 }
 
-.galeria .card-body{
+.galeria .card-body {
   background-color: #a9af7e;
 }
-
 
 main {
   margin-top: 10%;
@@ -81,4 +79,6 @@ footer img:hover {
   border-radius: 20px;
 }
 
-
+.articulo {
+  margin-top: 15% !important;
+}

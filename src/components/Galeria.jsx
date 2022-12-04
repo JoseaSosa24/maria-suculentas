@@ -3,7 +3,7 @@ import { Card } from './Card'
 
 export const Galeria = () => {
     return (
-        <section className="galeria row row-cols-md-4 g-4 mt-5">
+        <section className="galeria row row-cols-md-4 g-4 mt-5 m-2">
             <Card src={'https://www.hogarmania.com/archivos/201210/hiperico-1-320x180x80xX.jpg'}
                 cardTitle={'Hipérico'}
                 cardText={`El hipérico alivia los síntomas de la depresión 
