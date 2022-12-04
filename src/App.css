@@ -1,10 +1,3 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
- */
 .principal {
   padding: 1%;
 }
@@ -65,13 +58,24 @@ article p {
 }
 
 main {
-  margin-top: 10%;
+  /* border: 3px solid black; */
+
+  margin-top: 10% !important;
+  margin-bottom: 5% !important;
 }
+
+/* .formulario-productos{
+margin-top: 15% !important;
+} */
 
 .contenedor-formulario {
   border-radius: 20px !important;
   margin-top: 5%;
   box-shadow: -5px 14px 5px #557153;
+}
+
+footer {
+  width: 100%;
 }
 
 footer img:hover {
@@ -80,5 +84,5 @@ footer img:hover {
 }
 
 .articulo {
-  margin-top: 15% !important;
+  margin-top: 4% !important;
 }

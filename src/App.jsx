@@ -5,29 +5,25 @@ import { Header } from './components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Main } from './components/Main';
 import { Footer } from './components/Footer';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link,
-  NavLink
-} from "react-router-dom";
 import { Article } from './components/Article';
 import { Galeria } from './components/Galeria';
 
+
+import { Routes, Route } from 'react-router-dom';
+import { RegistroClientes } from './components/Registro Clientes/RegistroClientes';
+import { RegistroProveedor } from './components/Registro Proveedores/RegistroProveedor';
+import { RegistroProductos } from './components/Registro Productos/RegistroProductos';
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <Router>
-      <section className="App d-flex flex-column gap-4">
-        <Header />
-        <Article />
-        <Galeria/>
-        <Main />
-        <Footer />
-      </section>
-    </Router>
+
+    <section className="App">
+      <Header />
+      <Main />
+      <Footer />
+    </section>
+
   )
 }
 
