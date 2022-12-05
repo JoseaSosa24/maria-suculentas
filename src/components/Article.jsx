@@ -3,7 +3,7 @@ import React from 'react'
 export const Article = () => {
     return (
         <article className='articulo d-flex justify-content-center'>
-            <section class="card text-bg-dark w-75">
+            <section class="card text-bg-dark">
                 <img src='https://bit.ly/3VomTgx' class="card-img" height="700px" alt="..." />
                 <section class="card-img-overlay mt-5 ">
                     <h1 class="card-title fw-bold bg-black bg-opacity-25 rounded">¿Qué es la marihuana medicinal y cómo elegir una variedad de marihuana medicinal?</h1>
