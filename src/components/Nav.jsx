@@ -8,11 +8,11 @@ import { Outlet } from 'react-router-dom';
 
 export const Nav = () => {
   return (
-    <nav class="navbar navbar-expand-lg p-2 d-flex">
-      <section class="container-fluid d-flex">
+    <nav className="navbar navbar-expand-lg p-2 d-flex">
+      <section className="container-fluid d-flex">
         <NavbarBrand src={logo} />
-        <section class="collapse navbar-collapse d-flex justify-content-center gap-5" id="navbarNav">
-          <ul class="navbar-nav d-flex gap-5">
+        <section className="collapse navbar-collapse d-flex justify-content-center gap-5" id="navbarNav">
+          <ul className="navbar-nav d-flex gap-5">
             {/* <NavItem src={'../../src/assets/icon/icon-inicio.png'} href={'#'} contenido={'Inicio'}/> */}
             <NavItem src={ImagenesMenu.productos} href={'#formulario-productos'} contenido={'Productos'} to='/maria-suculentas/RegistroProductos'/>
             <NavItem src={ImagenesMenu.cliente}  contenido={'Clientes'} to='/maria-suculentas/RegistroClientes' />
