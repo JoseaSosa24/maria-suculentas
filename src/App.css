@@ -12,10 +12,16 @@ footer,
   background-color: #a9af7e;
 }
 
+main {
+  /*  margin-top: 5% !important; */
+  margin-top: 14% !important;
+  margin-bottom: 8% !important;
+}
+
 .contenedor-formulario {
-  margin-top: 100px;
-  margin: 2%;
-  padding: 8% !important;
+  padding: 4% !important;
+  border-radius: 20px !important;
+  box-shadow: -5px 14px 5px #557153;
 }
 
 .nav-item {
@@ -57,22 +63,9 @@ article p {
   background-color: #a9af7e;
 }
 
-main {
-  /* border: 3px solid black; */
-
-  margin-top: 10% !important;
-  margin-bottom: 5% !important;
-}
-
 /* .formulario-productos{
 margin-top: 15% !important;
 } */
-
-.contenedor-formulario {
-  border-radius: 20px !important;
-  margin-top: 5%;
-  box-shadow: -5px 14px 5px #557153;
-}
 
 footer {
   width: 100%;

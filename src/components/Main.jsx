@@ -10,7 +10,7 @@ import { Routes, Route } from 'react-router-dom';
 export const Main = () => {
   return (
 
-    <main className='principal d-flex flex-column gap-3 '>
+    <main className='principal d-flex justify-content-center align-items-center'>
       <Routes>
         <Route path='/maria-suculentas/' element={<Article />} />
         <Route path='/maria-suculentas/RegistroProductos' element={<RegistroProductos />} />
