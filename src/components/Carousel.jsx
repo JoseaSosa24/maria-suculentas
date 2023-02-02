@@ -22,7 +22,7 @@ export const Carousel = () => {
                         <img src="../../src/assets/img/img-caurosel/2.jpg" className="d-block w-100" alt="..." />
                         <section className="carousel-caption d-none d-md-block">
                             <h3>Shiva Skunk</h3>
-                            <p>85 % indica.</p>
+                            <p>85% indica.</p>
                         </section>
                     </section>
                     <section className="carousel-item">
